@@ -1,0 +1,181 @@
+/* Общие стили */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+/* первая секция */
+
+.section1 {
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+}
+
+.content__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mini__logo {
+    display: flex;
+    justify-content: space-between;
+    width: 8.5%;
+    margin: 88px 0 201px 0;
+}
+
+.mini__logo__text {
+    font-size: 22px;
+}
+
+.title__block {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 321px;
+}
+
+.dream__city__cart {
+    background-color: white;
+    border-radius: 78px;
+    padding: 8px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.btn__title {
+    background-color: #FF7E36;
+    font-size: 16px;
+    padding: 18px 52px;
+    border-radius: 119px;
+    border: none;
+}
+
+/* вторая секция */
+
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.track {
+    margin-top: 75px;
+    margin-bottom: 97px;
+    font-size: 30px;
+}
+
+.information {
+    display: flex;
+}
+
+.inf__block {
+    background-color: #FFF6F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inf__block__wrapper {
+    width: 70%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+
+}
+
+.button__sea {
+    font-size: 18px;
+    padding: 17px 49px;
+    border-radius: 119px;
+    border-color:  #FF7E36;
+    margin-top: 106px;
+    margin-bottom: 163px;
+    color: #FF7E36;
+}
+
+/* третья секция */
+.section3 {
+    display: flex;
+    justify-content: center;
+}
+
+.opport {
+    display: flex;
+    margin-top: 93px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.opport__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.opport__wrapper__txt {
+    width: 75%;
+    display: flex;
+    gap: 57px;
+    flex-direction: column;
+
+}
+.orang {
+    background-color: #FF7E36;
+    border-radius: 23px;
+    height: 7px;
+    width: 15%;
+
+}
+
+.orang__block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.key {
+    color: #5C7677;
+}
+
+.important {
+    display: flex;
+}
+
+.foot {
+    display: flex;
+}
+
+.important {
+    margin-top: 147px;
+    width:65%;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 145px;
+}
